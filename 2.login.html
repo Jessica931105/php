@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <!--設定網頁使用的字元編碼為UTF-8支援中文顯示-->
+        <meta charset="utf-8" >
+        <title>登入範例</title>
+    </head>
+    <body>
+        <!--使用 POST 方法將資料傳送到 2.login.php-->
+        <form method=post action="2.login.php">
+            <!--帳號輸入欄位 name="id" 表示傳送時的變數名稱是 id-->
+            帳號：<input type=text name="id"><br />
+            <!--密碼輸入欄位 type=password 表示輸入時會用顯示 name="pwd" 是變數名稱-->
+            密碼：<input type=password name="pwd"><p></p>
+            <!--提交按鈕 按下後會將表單資料送出-->
+            <input type=submit value="登入"> 
+            <!--重設按鈕，按下後會清空輸入的內容-->
+            <input type=reset value="清除">
+            
+        </form>
+    </body>
+</html>
